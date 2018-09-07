@@ -11,14 +11,14 @@ The first section assumes you have VirtualBox installed and a CentOS 7.5 Minimal
         - 1st network adapter set to Host Only
         - 2nd network adapter set to NAT
     - CentOS install settings:
-        - Set the date, time, and timezone
+        - Set timezone
         - Networking disabled and unconfigured
         - No users besides root
 3. Create 2 Worker VMs
     - VirtualBox Settings
         - 1st network adapter set to Host Only
     - CentOS install settings:
-        - Set the date, time, and timezone
+        - Set timezone
         - Networking disabled and unconfigured
         - No users besides root
 4. Configure networking

@@ -77,4 +77,4 @@ This section uses the provided Ansible YML files to install Kubernetes on the 3 
 
 ## References
 Much of the ansible yml was used from the following:
-- https://www.digitalocean.com/community/tutorials/how-to-create-a-kubernetes-1-10-cluster-using-kubeadm-on-centos-7s
+- https://www.digitalocean.com/community/tutorials/how-to-create-a-kubernetes-1-10-cluster-using-kubeadm-on-centos-7

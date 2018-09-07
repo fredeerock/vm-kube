@@ -67,11 +67,11 @@ This section uses the provided Ansible YML files to install Kubernetes on the 3 
 1. Change values in hosts file
 2. `ansible-playbook -i hosts kube-dependencies.yml`
 3. `ansible-playbook -i hosts master.yml`
-4. Test
+4. Check master node is ready
     - `ssh centos@master_ip`
     - `kubectl get nodes`
 5. `ansible-playbook -i hosts workers.yml`
-6. Test again
+6. Check workers have joined
     - `ssh centos@master_ip`
     - `kubectl get nodes`
 

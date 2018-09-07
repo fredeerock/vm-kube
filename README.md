@@ -3,7 +3,7 @@ A workflow for setting up a simple Kubernetes cluster using 3 VMs, a master and 
 
 ## Setup
 
-The first section assumes you have VirtualBox installed and CentOS 7.5 Minimal images on hand.
+The first section assumes you have VirtualBox installed and a CentOS 7.5 Minimal iso on hand.
 
 1. Create Host Only Adapter (IP: 192.168.56.1/24 & No DHCP)
 2. Create 1 Master VM
@@ -18,9 +18,9 @@ The first section assumes you have VirtualBox installed and CentOS 7.5 Minimal i
     - VirtualBox Settings
         - 1st network adapter set to Host Only
     - CentOS install settings:
+        - Set the date, time, and timezone
         - Networking disabled and unconfigured
-        - Timezone not set
-        - No user besides root
+        - No users besides root
 4. Configure networking
     - Master
         - `nmcli con add type ethernet con-name wan-con ifname enp0s8`

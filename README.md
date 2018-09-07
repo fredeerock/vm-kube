@@ -1,4 +1,8 @@
 # Kubernetes in CentOS 7.5 on VirtualBox
+A workflow for setting up a simple Kubernetes cluster using 3 VMs, a master and 2 workers. 
+
+## Setup
+
 The first section assumes you have VirtualBox installed and CentOS 7.5 Minimal images on hand.
 
 1. Create Host Only Adapter (IP: 192.168.56.1/24 & No DHCP)
@@ -58,7 +62,7 @@ The first section assumes you have VirtualBox installed and CentOS 7.5 Minimal i
         - `ssh-copy-id root@192.168.56.103`
 
 ## Ansible
-This section uses the provided Ansible YML files. 
+This section uses the provided Ansible YML files to install Kubernetes on the 3 nodes. 
 
 1. Change values in hosts file
 2. `ansible-playbook -i hosts kube-dependencies.yml`

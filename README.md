@@ -1,4 +1,4 @@
-# Kubernetes in CentOS 7.5 on VirtualBox
+# Kubernetes in CentOS on VirtualBox
 A workflow for setting up a simple Kubernetes cluster using 3 VMs, a master and 2 workers. 
 
 ## Setup

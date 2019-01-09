@@ -1,5 +1,5 @@
 # Kubernetes in CentOS on VirtualBox
-A workflow for setting up a simple Kubernetes cluster using 3 VMs, a master and 2 workers. 
+A workflow for setting up a Kubernetes cluster using 3 VMs, a master and 2 workers. 
 
 ## Setup
 
